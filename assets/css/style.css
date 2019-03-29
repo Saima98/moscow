@@ -55,6 +55,7 @@ span {
 	background-color: #222222;
 	min-height: 279.5px;
 	text-align: center;
+	cursor: pointer;
 }
 .single-menu:nth-child(1), .single-menu:nth-child(2) {
 	margin-bottom: 30px;
@@ -87,6 +88,7 @@ span {
 }
 .main-intro {
 	background-color: #111;
+	cursor: unset;
 }
 .content-about h4,.content-portfolio h4,.content-getintuch h4 {
 	position: relative;
@@ -224,13 +226,13 @@ span {
 	background-color: #222;
 	padding: 0 25px;
 }
-
 .end-cross {
 	display: inline-block;
 	position: fixed;
 	top: 38px;
 	right: 48px;
 	z-index: 9999;
+	cursor: pointer;
 }
 .end-cross i.fas {
 	font-size: 48px;
@@ -316,6 +318,7 @@ span {
 	flex-direction: row;
 	align-items: center;
 	margin: 25px 0;
+	cursor: pointer;
 }
 .skill-left ul li i.fas {
 	padding-right: 10px;
